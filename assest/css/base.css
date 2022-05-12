@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.close {
+    display: none;
+}
+
+.grid {
+    width: 100%;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+
+}
+
+.l-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
